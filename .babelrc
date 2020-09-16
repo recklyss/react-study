@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "react-app"
+  ],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "fileName": false,
+        "displayName": true
+      }
+    ],
+    [
+      "@babel/plugin-proposal-optional-chaining"
+    ]
+  ]
+}

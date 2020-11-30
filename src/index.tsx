@@ -1,5 +1,7 @@
 import * as React from 'react';
-import {render} from 'react-dom';
-import ToDoList from "./ToDoList";
+import { render } from 'react-dom';
+import ToDoList from './components/ToDoList';
 
-render(<ToDoList/>, document.getElementById('root'));
+const ROOT_DOM = 'root';
+
+render(<ToDoList/>, document.getElementById(ROOT_DOM));
